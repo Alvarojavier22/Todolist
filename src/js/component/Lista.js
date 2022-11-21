@@ -23,7 +23,7 @@ const Lista = () => {
 		<div>
 			<form onSubmit={añadirTarea}>
 				<div className="d-flex form-row align-items-center">
-					<div className="col-auto">
+					<div className="col-auto m-2">
 						<label className="sr-only" htmlFor="inlineFormInput">
 							Name
 						</label>
@@ -35,7 +35,7 @@ const Lista = () => {
 							onChange={event => setTarea(event.target.value)}
 						/>
 					</div>
-					<div className="col-auto">
+					<div className="col-auto  m-2">
 						<button type="submit" className="btn btn-success mb-2">
 							Agregar tarea
 						</button>
